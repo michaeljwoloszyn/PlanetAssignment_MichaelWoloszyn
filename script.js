@@ -129,8 +129,6 @@ function showDetails(plan){
     var ura = localStorage.getItem("Uranus");
     var nep = localStorage.getItem("Neptune");
 
-    
-
     if(plan == "merc"){
         $("#pName").html(mer.planetName);
         $("#pColor").html(mer.planetColor);
@@ -138,7 +136,7 @@ function showDetails(plan){
         $.each(mer.distantMillionsKM, (key, val) => {
             $("#fSun").html(val);
             $("#fEarth").html(val);}
-        document.body.style.backgroundImage = ;
+        document.body.style.backgroundImage = "url(mer.image)";
     }
 
     if (plan == "venu") {
@@ -148,7 +146,7 @@ function showDetails(plan){
         $.each(ven.distantmillionskm, (key, val) => {
             $("#fsun").html(val);
             $("#fEarth").html(val);}
-    
+        document.body.style.backgroundImage = "url(ven.image)";
     }
 
     if (plan == "eart") {
@@ -158,7 +156,8 @@ function showDetails(plan){
         $.each(ear.distantMillionsKM, (key, val) => {
             $("#fSun").html(val);
             $("#fEarth").html(val);}
-    
+         document.body.style.backgroundImage = "url(ear.image)";
+
     }
 
     if (plan == "mars") {
@@ -168,7 +167,7 @@ function showDetails(plan){
             $.each(mar.distantMillionsKM, (key, val) => {
                 $("#fSun").html(val);
                 $("#fEarth").html(val);}
-    
+        document.body.style.backgroundImage = "url(mar.image)";
     }
 
     if (plan == "jupi") {
@@ -178,7 +177,7 @@ function showDetails(plan){
         $.each(jup.distantMillionsKM, (key, val) => {
             $("#fSun").html(val);
             $("#fEarth").html(val);}
-    
+        document.body.style.backgroundImage = "url(jup.image)";
     }
 
     if (plan == "satu") {
@@ -188,7 +187,7 @@ function showDetails(plan){
         $.each(sat.distantMillionsKM, (key, val) => {
             $("#fSun").html(val);
             $("#fEarth").html(val);}
-    
+        document.body.style.backgroundImage = "url(sat.image)";
     }
 
     if (plan == "uran") {
@@ -198,7 +197,7 @@ function showDetails(plan){
         $.each(ura.distantMillionsKM, (key, val) => {
             $("#fSun").html(val);
             $("#fEarth").html(val);}
-    
+        document.body.style.backgroundImage = "url(ura.image)";
     }
 
     if (plan == "nept") {
@@ -208,6 +207,6 @@ function showDetails(plan){
         $.each(nep.distantMillionsKM, (key, val) => {
             $("#fSun").html(val);
             $("#fEarth").html(val);}
-
+        document.body.style.backgroundImage = "url(nep.image)";
     }
 }

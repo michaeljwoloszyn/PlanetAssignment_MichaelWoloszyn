@@ -6,11 +6,17 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <ul id="pPlanets" hidden>
-        Planet Name: <li id="pName"></li> <br>
-        Planet Color: <li id="pColor"></li> <br>
-        Planet Radius KM: <li id="pRadius"></li> <br>
-        KM From Sun: <li id="fSun"></li> <br>
-        KM From Earth: <li id="fEarth"></li> <br>
-    </ul>
+    <h1>Planet Home Page</h1>
+    <button onclick="buttonPress()">Click to save planets to local storage</button>
+    <nav id="pPlanets" hidden>
+        <a onclick="showDetails(merc)" href="../planetDetails.html">Mercury</a>
+        <a onclick="showDetails(venu)" href="../planetDetails.html">Venus</a>
+        <a onclick="showDetails(eart)" href="../planetDetails.html">Earth</a>
+        <a onclick="showDetails(mars)" href="../planetDetails.html">Mars</a>
+        <a onclick="showDetails(jupi)" href="../planetDetails.html">Jupiter</a>
+        <a onclick="showDetails(satu)" href="../planetDetails.html">Saturn</a>
+        <a onclick="showDetails(uran)" href="../planetDetails.html">Uranus</a>
+        <a onclick="showDetails(nept)" href="../planetDetails.html">Neptune</a>
+    </nav>
 </body>
+</html>
