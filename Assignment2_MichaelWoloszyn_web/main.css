@@ -1,0 +1,16 @@
+body {
+    background-image: url('space.png');
+    background-size: 2000px;
+    color: deepskyblue;
+    font-size: 20px;
+}
+
+#h {
+    text-align: center;
+    font-size: 65px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
